@@ -10,3 +10,16 @@ jobs:
       - name: CEl ajente se presneta
         run:
           echo "Soy el lider de la generacion del mal"
+
+      - name: CEl ajente se presneta
+        run: |
+          echo "Soy el lider de la generacion del mal"
+          echo "***************************"
+          echo "Mi objetivo es conquistar el mundo"
+          echo "Nombre clave: ${{ github.actor }}"
+          echo ""
+          echo "Contexto de Github: "
+          echo "Repositorio: ${{ github.repository }}"
+          echo "Operacion: ${{ github.sha }}"
+          echo "Metadata: ${{ toJSON(github) }}"
+
