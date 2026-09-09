@@ -1,0 +1,12 @@
+name: Reclutamineto de villanos
+
+on: push
+
+jobs:
+  reporte-de-reclutamiento:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: CEl ajente se presneta
+        run:
+          echo "Soy el lider de la generacion del mal"
