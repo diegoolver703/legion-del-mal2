@@ -11,6 +11,19 @@ on:
           - "Dr. Maligno"
           - "El villano de la semana"
           - "El lider de la generacion del mal"
+      mensaje:
+        description: "Mensaje a enviar"
+        required: true
+        type: string
+
+      prioridad:
+        description: "Nivel de prioridad"
+        required: true
+        type: choice
+        options:
+          - "Alta"
+          - "Media"
+          - "Baja"
 
 jobs:
   transmitir-mensaje:
