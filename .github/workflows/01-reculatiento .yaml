@@ -23,3 +23,13 @@ jobs:
           echo "Operacion: ${{ github.sha }}"
           echo "Metadata: ${{ toJSON(github) }}"
 
+
+      - name: Capacidad del agente 
+        run: |
+            echo "Mi capacidad de reclutamiento es alta"
+            echo "Puedo reclutar a cualquier persona con habilidades especiales"
+            uname -a
+            node --version
+            git --version
+            echo "Mi equipo de villanos es fuerte y leal"
+
