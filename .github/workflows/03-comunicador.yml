@@ -32,7 +32,7 @@ jobs:
 
     steps:
        - name: Imprimir inputs
-        run: |
+         run: |
           echo "Inputs"
           echo "Villanos ${{inputs.villano}}"
           echo "Nivel de prioridad ${{inputs.prioridad}}"
