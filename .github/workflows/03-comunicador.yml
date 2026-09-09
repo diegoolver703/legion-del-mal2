@@ -33,6 +33,9 @@ jobs:
     steps:
        - name: Imprimir inputs
          run: |
+          echo "************************"
+          echo "Transmitir interceptado"
+          echo "************************"
           echo "Inputs"
           echo "Villanos ${{inputs.villano}}"
           echo "Nivel de prioridad ${{inputs.prioridad}}"
