@@ -1,0 +1,22 @@
+name: Comunicador de la legion del mal
+
+on:
+  workflow_dispatch:
+    inputs:
+      villano:
+        description: "¿Que villano envia el mensaje?"
+        required: true
+        tipee: choices
+        options:
+          - "Dr. Maligno"
+          - "El villano de la semana"
+          - "El lider de la generacion del mal"
+
+jobs:
+  transmitir-mensaje:
+    runs-on: ubuntu-latest
+
+
+    steps:
+       - uses: actions/checkout@v4
+
