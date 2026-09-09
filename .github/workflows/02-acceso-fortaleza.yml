@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name:El ajente llega a la fortaleza
+      - name: El ajente llega a la fortaleza
         run: |
         echo "Agente: ${{ github.actor }} ha llegado a la fortaleza"
         echo ""
