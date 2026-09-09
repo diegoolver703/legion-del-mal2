@@ -2,7 +2,7 @@
 name: Template de bugs report
 about: Create a report to help us improve
 title: 'Bug: '
-labels: ''
+labels: Mejora de software
 assignees: diegoolver703
 type: Bug
 
