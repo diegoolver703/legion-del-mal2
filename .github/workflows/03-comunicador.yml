@@ -32,8 +32,8 @@ jobs:
 
     steps:
        - name: Imprimir inputs
-          run: |
-            echo "Inputs"
-            echo "Villanos ${{inputs.villano}}"
-            echo "Nivel de prioridad ${{inputs.prioridad}}"
-            echo "Mensaje ${{inputs.mensaje}}"
+        run: |
+          echo "Inputs"
+          echo "Villanos ${{inputs.villano}}"
+          echo "Nivel de prioridad ${{inputs.prioridad}}"
+          echo "Mensaje ${{inputs.mensaje}}"
